@@ -1,7 +1,7 @@
-describe('should test for my isFromBellville function', function(){
+describe('should test for my greet function', function(){
 
-    it('should test for my isFromBellville function', function(){
-        assert.equal(isFromBellville('CY'),true);
+    it('should test for my greet function', function(){
+        assert.equal('Hello, Janine', greet('Janine'));
     });
 
 });
